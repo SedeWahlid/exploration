@@ -464,8 +464,8 @@ def animate_training(env, recorded, interval=120,
 # ---------------------------------------------------------------------------
 def main():
     # Fix the seeds so the run is reproducible from one execution to the next.
-    random.seed(42)
-    np.random.seed(42)
+    random.seed(14)
+    np.random.seed(14)
 
     env = GridWorld(size=10)
     agent = QAgent(grid_size=env.size,
